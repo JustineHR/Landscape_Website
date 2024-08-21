@@ -1,0 +1,28 @@
+header {grid-area: header;}
+nav {grid-area: nav;}
+main {grid-area: main;}
+aside {grid-area: aside}
+image {grid-area: image}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+  'header header header header header'
+  'nav nav nav nav nav'
+  'image image image image image'
+  'main main main main main';
+  gap: 20px;
+  padding: 35px;
+}
+.AsideImage {
+    width: 1000;
+    border: 30px solid #969C87;
+    margin: auto;
+    float: left;
+}
+.WorkImage {
+    width: 800px;
+    border: 30px solid #969C87;
+    margin: auto;
+    float: left;
+}
